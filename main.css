@@ -1,22 +1,36 @@
 body {
   background-color: #171b2a;
-  text-align: left;
+  text-align: center;
   color: white;
   font-family: font-family: 'Saira Semi Condensed', sans-serif;
 }
 header{
   color: white;
-  text-align: center;
+text-align: center;
+font-size: 30px;
+
 }
 footer{
   color: grey;
   text-align: center;
+  position: relative;
 }
 
 a:link{
   color: white;
 }
 
+.Odkazy{
+  text-align: center;
+  font-size: 25px;
+}
+.centered {
+
+}
+
+.instagram{
+  color: red;
+}
 @font-face {
     font-family: 'Basketlab';
     src: url('SairaSemiCondensed-Bold.tff');

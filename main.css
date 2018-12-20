@@ -1,5 +1,23 @@
-.podnadpis
-{
-  font-family: serif;
-  color: blue;
+body {
+  background-color: #171b2a;
+  text-align: left;
+  color: white;
+  font-family: font-family: 'Saira Semi Condensed', sans-serif;
+}
+header{
+  color: white;
+  text-align: center;
+}
+footer{
+  color: grey;
+  text-align: center;
+}
+
+a:link{
+  color: white;
+}
+
+@font-face {
+    font-family: 'Basketlab';
+    src: url('SairaSemiCondensed-Bold.tff');
 }

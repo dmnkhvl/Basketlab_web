@@ -1,37 +1,49 @@
-body {
+html {
   background-color: #171b2a;
+}
+
+body {
   text-align: center;
   color: white;
   font-family: font-family: 'Saira Semi Condensed', sans-serif;
 }
-header{
-  color: white;
-text-align: center;
-font-size: 30px;
 
+header {
+  color: white;
+  text-align: center;
+  font-size: 30px;
 }
-footer{
+
+footer {
   color: grey;
   text-align: center;
   position: relative;
 }
 
-a:link{
+.Odkazy {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 22px;
+}
+
+a:link {
   color: white;
 }
 
-.Odkazy{
-  text-align: center;
-  font-size: 25px;
-}
-.centered {
-
+a:visited {
+  color: white;
 }
 
-.instagram{
-  color: red;
+a:hover {
+  color: hotpink;
 }
+
+a:active {
+  color: blue;
+}
+
 @font-face {
-    font-family: 'Basketlab';
-    src: url('SairaSemiCondensed-Bold.tff');
+  font-family: 'Basketlab';
+  src: url('SairaSemiCondensed-Bold.tff');
 }

@@ -11,8 +11,10 @@ body {
 
 header {
   color: #D81E5B;
+  padding-top: 0px;
   text-align: center;
   font-size: 40px;
+  font-weight: bold;
 }
 
 footer {
@@ -26,6 +28,18 @@ footer {
   padding-bottom: 20px;
   text-align: center;
   font-size: 30px;
+}
+
+a.instagram:link {
+  text-decoration: none;
+}
+
+a.instagram:visited {
+  text-decoration: none;
+}
+
+a.instagram:hover {
+  text-decoration: underline;
 }
 
 a:link {
